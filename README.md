@@ -14,6 +14,7 @@
 
 ## Структура проекта
 
+```
 text-autocomplete/
 ├── data/
 │   ├── dataset_processed/
@@ -31,4 +32,6 @@ text-autocomplete/
 │   ├── rouge_metrics.py
 │   └── transformer_model.py
 ├── requirements.txt
+└── solution.ipynb
+```
 └── solution.ipynb
