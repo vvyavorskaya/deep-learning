@@ -34,4 +34,3 @@ text-autocomplete/
 ├── requirements.txt
 └── solution.ipynb
 ```
-└── solution.ipynb
