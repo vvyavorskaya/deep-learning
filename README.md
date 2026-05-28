@@ -15,20 +15,20 @@
 ## Структура проекта
 
 text-autocomplete/
-├── data/ - директория с данными
-| ├── dataset_processed - очищенные данные 
-| ├── raw_dataset.txt - сырые данные
-│ ├── test_cleaned.txt - тестовые данные 
-│ ├── train_cleaned.txt - тренировочные данные 
-│ └── val_cleaned.txt - валидационные данные
-├── src/ - исходный код
-│ ├── __init__.py - превращение папки в модуль
-│ ├── data_utils.py - подготовка и очистка данных
-│ ├── lstm_model.py - LSTM модель    
-│ ├── lstm_train.py - обучение LSTM модели
-│ ├── model_comparison.py - сравнение моделей
-│ ├── next_token_dataset.py - Dataset и DataLoader'ы    
-│ ├── rouge_metrics.py - ROUGE  
-│ └── transformer_model.py - Transformer 
-├── requirements.txt - зависимости
-└── solution.ipynb - ноутбук с пайплайном
+├── data/
+│   ├── dataset_processed/
+│   ├── raw_dataset.txt
+│   ├── test_cleaned.txt
+│   ├── train_cleaned.txt
+│   └── val_cleaned.txt
+├── src/
+│   ├── __init__.py
+│   ├── data_utils.py
+│   ├── lstm_model.py
+│   ├── lstm_train.py
+│   ├── model_comparison.py
+│   ├── next_token_dataset.py
+│   ├── rouge_metrics.py
+│   └── transformer_model.py
+├── requirements.txt
+└── solution.ipynb
